@@ -1,0 +1,88 @@
+
+body{
+    margin: 0;
+    padding: 0; 
+    background: #ccc;
+    font-family: sans-serif;
+}
+
+
+.container{
+    width: 100%;
+    text-align: center;
+    margin-top: 120px;
+}
+
+#title{
+    text-align: center;
+    font-size: 50px;
+}
+
+#inputText{
+    width: 300px;
+    height: 46px;
+    border: 1px solid black;
+    outline: none;
+    font-size: 25px;
+    vertical-align: middle;
+    border: 3px solid orange;
+    border-radius: 15px;
+    color: purple;
+}
+
+#addToDo{
+    height: 45px;
+    width: 80px;
+    background-color: rgb(24, 221, 40);
+    text-align: center;
+    font-size: 25px;
+    color: rgb(81, 9, 105);
+    border: 1px solid rgb(240, 189, 189);
+    border-radius: 15px;
+    vertical-align: middle;
+    outline: none;
+    cursor: pointer;
+    box-shadow: 32px;
+}
+#addToDo:active{
+    background-color: darkorange;
+}
+#addToDo::after{
+    background-color: rgb(205, 221, 61);
+}
+#addToDo:hover{
+    background-color: rgb(206, 77, 18);
+}
+#clearToDo{
+    height: 45px;
+    width: 100px;
+    background-color: red;
+    text-align: center;
+    font-size: 25px;
+    color: cornsilk;
+    border: 1px solid whitesmoke;
+    border-radius: 15px;
+    vertical-align: middle;
+    outline: none;
+    cursor: pointer;
+}
+#clearToDo:active{
+    background-color: rgb(231, 62, 110);
+}
+
+#clearToDo:hover{
+    background-color: rgb(228, 53, 181);
+}
+
+/* // js icin */
+.paragraph-styling{
+    margin: 0;
+    cursor: pointer;
+    font-size: 35px;
+    color: rgb(153, 25, 153);
+    text-transform: capitalize;
+}
+
+.to-dos{
+    margin-top: 20px;
+}
